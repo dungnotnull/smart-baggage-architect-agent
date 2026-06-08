@@ -1,0 +1,35 @@
+iata_code: WN
+airline_name: Southwest Airlines
+region: North America
+last_verified: "2026-06-08"
+source_url: "https://www.southwest.com/air/baggage/"
+
+carry_on:
+  weight_kg: null
+  dimensions_cm: [60, 35, 25]
+  personal_item: true
+  personal_item_dimensions_cm: [43, 25, 22]
+
+checked:
+  weight_kg_economy: 23
+  weight_kg_business: 23
+  weight_kg_first: 23
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 0
+  fee_first_bag_economy_international_usd: 0
+  fee_second_bag_economy_domestic_usd: 0
+  fee_second_bag_economy_international_usd: 0
+
+overweight_fees:
+  23_32kg_usd: 75
+  32_46kg_usd: 200
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: free_first_two_bags
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits:
+  rapid_rewards_a_list: 0_always_free
+  rapid_rewards_a_list_preferred: 0_always_free

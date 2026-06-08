@@ -1,0 +1,36 @@
+iata_code: AA
+airline_name: American Airlines
+region: North America
+last_verified: "2026-06-08"
+source_url: "https://www.aa.com/i18n/travel-info/baggage/"
+
+carry_on:
+  weight_kg: null
+  dimensions_cm: [56, 36, 23]
+  personal_item: true
+  personal_item_dimensions_cm: [45, 35, 20]
+
+checked:
+  weight_kg_economy: 23
+  weight_kg_business: 32
+  weight_kg_first: 32
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 30
+  fee_first_bag_economy_international_usd: 0
+  fee_second_bag_economy_domestic_usd: 45
+  fee_second_bag_economy_international_usd: 100
+
+overweight_fees:
+  23_32kg_usd: 100
+  32_46kg_usd: 200
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: fee_waived_for_elite
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits:
+  aadvantage_gold: 1_free_checked
+  aadvantage_platinum: 2_free_checked
+  aadvantage_exec_plat: 3_free_checked

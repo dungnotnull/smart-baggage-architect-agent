@@ -1,0 +1,39 @@
+﻿{
+  "expo": {
+    "name": "Smart Baggage Architect",
+    "slug": "smart-baggage-architect",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartbaggagearchitect.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera access is needed to scan and verify items in your suitcase."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.smartbaggagearchitect.app",
+      "permissions": ["CAMERA"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermissionText": "Smart Baggage Architect needs camera access to detect and verify packed items."
+        }
+      ],
+      "expo-router"
+    ]
+  }
+}

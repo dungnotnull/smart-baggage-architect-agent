@@ -1,0 +1,36 @@
+iata_code: BA
+airline_name: British Airways
+region: Europe
+last_verified: "2026-06-08"
+source_url: "https://www.britishairways.com/en-gb/information/baggage-essentials"
+
+carry_on:
+  weight_kg: 23
+  dimensions_cm: [56, 45, 25]
+  personal_item: true
+  personal_item_dimensions_cm: [40, 30, 15]
+
+checked:
+  weight_kg_economy: 23
+  weight_kg_business: 32
+  weight_kg_first: 32
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 0
+  fee_first_bag_economy_international_usd: 0
+  fee_second_bag_economy_domestic_usd: 80
+  fee_second_bag_economy_international_usd: 80
+
+overweight_fees:
+  23_32kg_usd: 80
+  32_46kg_usd: 160
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: standard_fee
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits:
+  executive_club_bronze: 1_free_checked
+  executive_club_silver: 2_free_checked
+  executive_club_gold: 3_free_checked

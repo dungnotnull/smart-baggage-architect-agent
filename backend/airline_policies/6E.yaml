@@ -1,0 +1,33 @@
+iata_code: 6E
+airline_name: IndiGo
+region: Asia-Pacific
+last_verified: "2026-06-08"
+source_url: "https://www.goindigo.in/baggage/baggage-allowance.html"
+
+carry_on:
+  weight_kg: 7
+  dimensions_cm: [55, 35, 25]
+  personal_item: 1
+  personal_item_dimensions_cm: [35, 25, 10]
+
+checked:
+  weight_kg_economy: 20
+  weight_kg_business: 20
+  weight_kg_first: 20
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 0
+  fee_first_bag_economy_international_usd: 0
+  fee_second_bag_economy_domestic_usd: 0
+  fee_second_bag_economy_international_usd: 0
+
+overweight_fees:
+  23_32kg_usd: 60
+  32_46kg_usd: 120
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: standard_fee
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits: {}

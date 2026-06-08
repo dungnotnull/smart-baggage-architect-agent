@@ -1,0 +1,36 @@
+# smart-baggage-architect backend dependencies
+
+# Web framework
+fastapi==0.111.*
+uvicorn[standard]==0.30.*
+pydantic==2.7.*
+pydantic-settings==2.3.*
+python-multipart==0.0.*
+
+# ML / Vision
+ultralytics==8.2.*
+onnxruntime==1.18.*
+transformers==4.41.*
+llama-cpp-python==0.2.77
+Pillow==10.*
+
+# LLM APIs
+anthropic==0.28.*
+openai==1.35.*
+
+# Optimization
+pulp==2.8
+py3dbp==1.1.*
+
+# Data & Storage
+PyYAML==6.*
+requests==2.32.*
+sqlcipher3==0.5.*
+cryptography==42.*
+
+# Web scraping
+crawl4ai==0.3.*
+
+# Security & Operations
+slowapi==0.1.*
+loguru==0.7.*

@@ -1,0 +1,36 @@
+iata_code: SQ
+airline_name: Singapore Airlines
+region: Asia-Pacific
+last_verified: "2026-06-08"
+source_url: "https://www.singaporeair.com/en_UK/plan-travel/baggage/"
+
+carry_on:
+  weight_kg: 7
+  dimensions_cm: [55, 40, 23]
+  personal_item: true
+  personal_item_dimensions_cm: [30, 30, 10]
+
+checked:
+  weight_kg_economy: 23
+  weight_kg_business: 32
+  weight_kg_first: 32
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 0
+  fee_first_bag_economy_international_usd: 0
+  fee_second_bag_economy_domestic_usd: 0
+  fee_second_bag_economy_international_usd: 0
+
+overweight_fees:
+  23_32kg_usd: 100
+  32_46kg_usd: 200
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: standard_fee
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits:
+  krisflyer_silver: 1_free_checked_extra
+  krisflyer_gold: 2_free_checked_extra
+  pops_priority: 1_free_checked_extra

@@ -1,0 +1,33 @@
+iata_code: U2
+airline_name: easyJet
+region: Europe
+last_verified: "2026-06-08"
+source_url: "https://www.easyjet.com/en/help/baggage"
+
+carry_on:
+  weight_kg: 15
+  dimensions_cm: [56, 45, 25]
+  personal_item: 1
+  personal_item_dimensions_cm: [45, 36, 20]
+
+checked:
+  weight_kg_economy: 23
+  weight_kg_business: 23
+  weight_kg_first: 23
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 30
+  fee_first_bag_economy_international_usd: 40
+  fee_second_bag_economy_domestic_usd: 40
+  fee_second_bag_economy_international_usd: 60
+
+overweight_fees:
+  23_32kg_usd: 60
+  32_46kg_usd: 120
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: standard_fee
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits: {}

@@ -1,0 +1,33 @@
+iata_code: F9
+airline_name: Frontier Airlines
+region: North America
+last_verified: "2026-06-08"
+source_url: "https://www.flyfrontier.com/travel-info/baggage/"
+
+carry_on:
+  weight_kg: null
+  dimensions_cm: [56, 36, 23]
+  personal_item: 1
+  personal_item_dimensions_cm: [43, 25, 22]
+
+checked:
+  weight_kg_economy: 18
+  weight_kg_business: 18
+  weight_kg_first: 18
+  dimensions_cm: [158]
+  fee_first_bag_economy_domestic_usd: 35
+  fee_first_bag_economy_international_usd: 60
+  fee_second_bag_economy_domestic_usd: 45
+  fee_second_bag_economy_international_usd: 75
+
+overweight_fees:
+  23_32kg_usd: 75
+  32_46kg_usd: 150
+  over_46kg: not_accepted
+
+special_items:
+  sports_equipment: standard_fee
+  musical_instruments: cabin_seat_purchase_available
+  strollers: free_check
+
+elite_benefits: {}
