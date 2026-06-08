@@ -1,6 +1,5 @@
 # Smart Baggage Architect
 
-[![CI](https://github.com/smart-baggage-architect/smart-baggage-architect/actions/workflows/ci.yml/badge.svg)](https://github.com/smart-baggage-architect/smart-baggage-architect/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green.svg)](https://fastapi.tiangolo.com/)
