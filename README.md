@@ -1,10 +1,10 @@
-# Smart Baggage Architect
+# 🧳 Smart Baggage Architect
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green.svg)](https://fastapi.tiangolo.com/)
 
-> **Pack smarter. Travel lighter. Never forget a thing.**
+> **✨ Pack smarter. Travel lighter. Never forget a thing. ✈️**
 
 AI-powered travel packing assistant that combines airline baggage policy intelligence, destination weather forecasting, and real-time computer vision to eliminate both over-packing and under-packing.
 
